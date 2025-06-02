@@ -1,24 +1,57 @@
-*{
+* {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 /* splits styles */
-.title{
+.title {
   text-align: center;
   color: rgb(223, 108, 108);
 }
-.subtitle{
+
+.subtitle {
   color: rgb(223, 108, 108);
 }
 
-.icon-add{
+.icon-add {
   /* color: rgb(28, 125, 209); */
   /* margin-left: 15px; */
   color: rgb(223, 108, 108);
 }
-.container{
+
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
+
+.default-splits {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.split-btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ffd4d4;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.split-btn:hover {
+  background-color: #ffb3b3;
+  transform: translateY(-2px);
+}
+
+/* timer styles */
+.timer-box{
+  width: 800px;
+  height: 500px;
+  background-color: #dedede;
+  align-items: center;
+  margin: 100px auto;
+ }
